@@ -21,9 +21,6 @@ function generateScore(p1, p2) {
     X_score=1;
     Y_score=2;
     Z_score=3;
-    X_outcome="lose";
-    Y_outcome="draw";
-    Z_outcome="win";
     if(p1=="A") {
         if(p2=="X") return draw_score+X_score;
         if(p2=="Y") return win_score+Y_score;
